@@ -7,7 +7,7 @@ A demonstration of capabilities to fetch device information from the browser
 * Battery status
 
 
-## Build using [elm-live](https://github.com/tomekwi/elm-live)
+## Build and run using [elm-live](https://github.com/tomekwi/elm-live)
 ```bash
 elm-live .\src\Main.elm --output elm.js --open
 ```
