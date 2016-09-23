@@ -2,7 +2,7 @@
 
 A demonstration of capabilities to fetch device information from the browser
 * Device orientation (tilt/direction)
-* Location
+* Location (must use https to function correctly)
 * Browser and platform
 * Battery status
 
