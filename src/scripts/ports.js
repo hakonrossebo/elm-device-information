@@ -45,8 +45,12 @@ myOrientationApp.ports.fetchbrowserplatforminfo.subscribe(function(word) {
 
 
 function deviceOrientationListener(event) {
-        var customEvent = {alpha: event.alpha, beta: event.beta, gamma: event.gamma}
-myOrientationApp.ports.incomingorientation.send(customEvent);
+    var alpha = event.alpha == null ? 0 : event.alpha;
+    var beta = event.beta == null ? 0 : event.beta;
+    var gamma = event.gamma == null ? 0 : event.gamma;
+    
+        var customEvent = {alpha: alpha, beta: beta, gamma: gamma}
+        myOrientationApp.ports.incomingorientation.send(customEvent);
 }
 
 if (window.DeviceOrientationEvent) {
