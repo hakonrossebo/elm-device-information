@@ -9,12 +9,12 @@ A demonstration of capabilities to fetch device information from the browser
 
 ## Build and run using [elm-live](https://github.com/tomekwi/elm-live)
 ```bash
-elm-live .\src\Main.elm --output elm.js --open
+elm-live ./src/Main.elm --output elm.js --open
 ```
 or
 ## Build using elm-make
 ```bash
-elm-make .\src\Main.elm --output elm.js
+elm-make ./src/Main.elm --output elm.js
 ```
 
 ### Screenshot
